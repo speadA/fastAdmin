@@ -1,0 +1,729 @@
+---------------------------------------------------------------
+[ 2019-08-17T19:14:35+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.236830s] [吞吐率：4.22req/s] [内存消耗：2,916.16kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007788s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002221s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001532s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.035251s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028490s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.027975s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.030537s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:14:36+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/__HOMEDOVE__/uploads/20190817/96fb6c2e86eb06b3b6eaea9b0a2f797a.jpg?1566040476424
+[运行时间：0.087222s] [吞吐率：11.47req/s] [内存消耗：1,593.99kb] [文件加载：54]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000066s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007696s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => '__HOMEDOVE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '1566040476424' => '',
+  'uploads' => '20190817',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004219s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T19:16:48+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.185112s] [吞吐率：5.40req/s] [内存消耗：2,524.47kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000103s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007062s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005271s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001373s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.034804s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028846s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000685s ]
+[ error ] [8]Use of undefined constant SCRIPT_DIR - assumed 'SCRIPT_DIR'[D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\config\config.php:18]
+---------------------------------------------------------------
+[ 2019-08-17T19:17:32+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.209403s] [吞吐率：4.78req/s] [内存消耗：2,696.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003446s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002695s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.029058s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.027706s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.027367s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.027939s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:17:33+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/__HOMEDOVE__/uploads/20190817/96fb6c2e86eb06b3b6eaea9b0a2f797a.jpg?1566040653571
+[运行时间：0.088464s] [吞吐率：11.30req/s] [内存消耗：1,593.99kb] [文件加载：54]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005374s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => '__HOMEDOVE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '1566040653571' => '',
+  'uploads' => '20190817',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003902s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T19:18:28+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.184562s] [吞吐率：5.42req/s] [内存消耗：2,524.47kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000535s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005564s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005922s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002785s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.031711s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028908s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000529s ]
+[ error ] [8]Use of undefined constant SITE_URL - assumed 'SITE_URL'[D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\config\config.php:18]
+---------------------------------------------------------------
+[ 2019-08-17T19:18:59+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.144678s] [吞吐率：6.91req/s] [内存消耗：2,524.47kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003073s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002009s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.039172s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028048s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000628s ]
+[ error ] [8]Use of undefined constant SITE_URL - assumed 'SITE_URL'[D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\config\config.php:18]
+---------------------------------------------------------------
+[ 2019-08-17T19:19:06+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.135951s] [吞吐率：7.36req/s] [内存消耗：2,524.47kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003212s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002154s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.027769s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028698s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000609s ]
+[ error ] [8]Use of undefined constant SITE_URL - assumed 'SITE_URL'[D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\config\config.php:18]
+---------------------------------------------------------------
+[ 2019-08-17T19:19:14+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.231696s] [吞吐率：4.32req/s] [内存消耗：2,696.53kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003092s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002184s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010353s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.028845s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.032212s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.034405s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.032189s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:19:15+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/__HOMEDOVE__/uploads/20190817/96fb6c2e86eb06b3b6eaea9b0a2f797a.jpg?1566040755672
+[运行时间：0.097537s] [吞吐率：10.25req/s] [内存消耗：1,593.99kb] [文件加载：54]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004911s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => '__HOMEDOVE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '1566040755672' => '',
+  'uploads' => '20190817',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004947s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T19:19:43+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.279704s] [吞吐率：3.58req/s] [内存消耗：2,696.52kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004137s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003176s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001097s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.040876s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.034136s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.033417s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.029694s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:19:44+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/__HOMEDOVE__/uploads/20190817/96fb6c2e86eb06b3b6eaea9b0a2f797a.jpg?1566040784610
+[运行时间：0.086894s] [吞吐率：11.51req/s] [内存消耗：1,593.99kb] [文件加载：54]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005061s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => '__HOMEDOVE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '1566040784610' => '',
+  'uploads' => '20190817',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004017s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T19:21:00+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.258816s] [吞吐率：3.86req/s] [内存消耗：2,916.13kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004585s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002954s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.043763s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.028771s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.036442s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.033955s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000876s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:21:10+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.261163s] [吞吐率：3.83req/s] [内存消耗：2,696.53kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005596s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004134s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000968s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.039853s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.032190s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.034753s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.029721s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.001016s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:21:55+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.217252s] [吞吐率：4.60req/s] [内存消耗：2,916.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003194s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002017s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010523s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.034552s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.026894s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.026992s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.027716s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:23:19+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.223841s] [吞吐率：4.47req/s] [内存消耗：2,920.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004589s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003122s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001345s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.035351s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.027982s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.026840s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.028045s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2019-08-17T19:23:31+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/index.php/home/Index/index.html
+[运行时间：0.281087s] [吞吐率：3.56req/s] [内存消耗：2,915.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005599s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564138543; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1566036762',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/index.php/home/Index/imgFirst.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003087s ]
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/home\view\home\index.html [ array (
+  0 => 'data',
+  1 => 'introduce',
+  2 => 'bodyimglist',
+  3 => 'buttomimglist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_carouseimglist` [ RunTime:0.047083s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_carouseimglist` WHERE  `deleted` = 0 ORDER BY `createtime` DESC LIMIT 3 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_doveintroduce` [ RunTime:0.032640s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_doveintroduce` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_firstbodylist` [ RunTime:0.033150s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_firstbodylist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_buttomimglist` [ RunTime:0.032800s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_buttomimglist` WHERE  `deleted` = 0 ORDER BY `updatetime` DESC LIMIT 6 [ RunTime:0.000517s ]

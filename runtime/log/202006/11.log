@@ -1,0 +1,454 @@
+---------------------------------------------------------------
+[ 2020-06-11T16:22:01+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/web.php
+[运行时间：0.714329s] [吞吐率：1.40req/s] [内存消耗：1,377.77kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000491s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.025961s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1586005089; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1587444445; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:22:04+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/web.php
+[运行时间：0.051138s] [吞吐率：19.55req/s] [内存消耗：1,378.19kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003749s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1586005089; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1587444445; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/web.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:22:05+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/web.php
+[运行时间：0.062088s] [吞吐率：16.11req/s] [内存消耗：1,378.19kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004163s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1586005089; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1587444445; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/fastadmin/public/web.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:22:09+08:00 ] 127.0.0.1 GET 127.0.0.1/fastadmin/public/
+[运行时间：0.376387s] [吞吐率：2.66req/s] [内存消耗：2,163.91kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000082s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003341s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1586005089; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1587444445; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.033727s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:29:16+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.122624s] [吞吐率：8.16req/s] [内存消耗：2,163.80kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000436s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007199s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591863730',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006817s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:29:18+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.162662s] [吞吐率：6.15req/s] [内存消耗：2,163.80kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001162s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009424s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591863730',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004678s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:30:47+08:00 ] 127.0.0.1 GET 127.0.0.1:8010/
+[运行时间：0.103998s] [吞吐率：9.62req/s] [内存消耗：2,163.89kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000269s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006707s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864157',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8010',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004628s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:30:47+08:00 ] 127.0.0.1 GET 127.0.0.1:8010/fastadmin/public/assets/css/index.css
+[运行时间：0.100679s] [吞吐率：9.93req/s] [内存消耗：1,377.91kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008141s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fastadmin',
+    1 => 'public',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864157',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8010/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8010',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'index.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:30:48+08:00 ] 127.0.0.1 GET 127.0.0.1:8010/fastadmin/public/assets/img/logo.png
+[运行时间：0.069331s] [吞吐率：14.42req/s] [内存消耗：1,377.94kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003738s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'fastadmin',
+    1 => 'public',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864157',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8010/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8010',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'logo.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:30:49+08:00 ] 127.0.0.1 GET 127.0.0.1:8010/favicon.ico
+[运行时间：0.078959s] [吞吐率：12.66req/s] [内存消耗：1,378.18kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000078s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006617s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864248',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1:8010/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1:8010',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:37:31+08:00 ] 127.0.0.1 GET 127.0.0.1/laravel55/public/
+[运行时间：0.106872s] [吞吐率：9.36req/s] [内存消耗：1,377.73kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000197s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008699s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'laravel55',
+    1 => 'public',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864248',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:37:37+08:00 ] 127.0.0.1 GET 127.0.0.1/laravel55/public/
+[运行时间：0.076760s] [吞吐率：13.03req/s] [内存消耗：1,378.16kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005764s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'laravel55',
+    1 => 'public',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864248',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/laravel55/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:37:38+08:00 ] 127.0.0.1 GET 127.0.0.1/laravel55/public/
+[运行时间：0.079745s] [吞吐率：12.54req/s] [内存消耗：1,378.16kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000088s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007355s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'laravel55',
+    1 => 'public',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864248',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/laravel55/public/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-11T16:37:41+08:00 ] 127.0.0.1 GET 127.0.0.1/laravel55/public/
+[运行时间：0.083224s] [吞吐率：12.02req/s] [内存消耗：1,378.12kb] [文件加载：49]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000086s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008616s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'laravel55',
+    1 => 'public',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=kd245gi6lsoshocci2cvdtb934; think_var=zh-cn; PGADMIN_KEY=8cd0ff74-75c5-4967-b1cb-765f8747761b; PGADMIN_LANGUAGE=en; remember_admin_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlNXR1RXeVcrdVBBd1F3WEFabmtcL3J3PT0iLCJ2YWx1ZSI6ImpcL1RIUm40Uzd5RHRJOGkxT3FvdHVoYWdNVFRxbWQ2SjZLVXFhcEtNM2gzelY0cW9RTWh5TFwvSUNOblE4ekx3TStnWEcrSlwvWlRMdGY5KzBoT3VKSVExeDF0ZHNPY2ZsQWJ6alRCSHFMNHdva1R0SEk1aVBEclwvdW9GbkFjUnVJeXliYlA2b0dTRVVpNUNXRkphRVA3ZW5aRXpDZEU3b2wwUHZWNlE1TVBxR1U9IiwibWFjIjoiYjgzOGEzYmI4MDJlMmU5NWFlYzk1YzU3ZDMyOWQzZTc5NTdkZmZlYmQxNTA3NzY4YjhiNThiZjQxNDM3MGY0OCJ9; elshc_think_language=zh; ELSSESSID=vsol1u2v5nhu4acr57ivm822o6; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1591863730; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1591864248',
+  'accept-language' => 'zh,zh-HK;q=0.9,zh-TW;q=0.8,en;q=0.7,zh-CN;q=0.6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
